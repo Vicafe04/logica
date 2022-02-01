@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+D:\logica\FPOO\workif\Exemplo 2\src\exercícios\.metadata\.plugins\org.eclipse.jdt.core
+3460880079.index
