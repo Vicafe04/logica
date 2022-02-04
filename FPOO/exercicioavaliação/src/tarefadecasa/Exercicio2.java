@@ -15,7 +15,7 @@ public class Exercicio2 {
 		S = ler.nextFloat();
 		
 		T = S / V;
-		System.out.println(T);
+		System.out.printf("O tempo necessario é %s horas",T);
 	}
 
 }

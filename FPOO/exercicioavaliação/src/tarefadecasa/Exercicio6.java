@@ -1,4 +1,4 @@
-package exercicios;
+package tarefadecasa;
 
 import java.util.Scanner;
 

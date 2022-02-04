@@ -1,4 +1,4 @@
-package exercicios;
+package tarefadecasa;
 
 import java.util.Scanner;
 
@@ -17,8 +17,8 @@ public class Exercicio5 {
 		C = ler.nextInt();
 		System.out.println("quantia de alqueires");
 		A = ler.nextInt();
-		V = (A * 250)/(C * 18);
-		System.out.println("A quantia de viagens necessárias para transportar toda a colheita de laranjas é "+V);
+		V = ((A * 250)/C) * 18;
+		System.out.println("A quantia de viagens necessárias para transportar toda a colheita de laranjas é = "+V);
 	}
 
 }
