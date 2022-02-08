@@ -1,0 +1,23 @@
+.body {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-content: center;
+	background-color: white;
+	width:100%;
+}	
+
+.centro{
+	width:50%;
+	background-color:black;
+	color:white;
+	margin:0;
+}
+div {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
