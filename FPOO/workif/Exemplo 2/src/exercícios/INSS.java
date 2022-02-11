@@ -1,16 +1,16 @@
-package exercícios;
+package exercÃ­cios;
 
 import java.util.Scanner;
 
 public class INSS {
 
 	public static void main(String[] args) {
-		//Variáveis
+		//Variï¿½veis
 		Scanner entrada = new Scanner(System.in);
 		double salario, desconto;
 		float porcentagem;
 		//Entrada
-		System.out.print("Digite o seu salário: ");
+		System.out.print("Digite o seu salï¿½rio: ");
 		salario = entrada.nextDouble();
 		
 		//Processamento
@@ -32,10 +32,11 @@ public class INSS {
 		else
 			desconto = salario * porcentagem / 100;	
 		
-		//Saída
-		System.out.printf("A alíquota aplicada é %.2f%% \n",porcentagem);
-		System.out.printf("O desconto de INSS é %.2f\n",desconto);
-		System.out.printf("Você vai receber %.2f\n",salario  - desconto);	
+		//Saï¿½da
+		System.out.printf("A alï¿½quota aplicada ï¿½ %.2f%% \n",porcentagem);
+		System.out.printf("O desconto de INSS ï¿½ %.2f\n",desconto);
+		System.out.printf("Vocï¿½ vai receber %.2f\n",salario  - desconto);	
+		entrada.close();
 	}
 
 }

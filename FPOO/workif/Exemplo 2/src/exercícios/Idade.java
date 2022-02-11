@@ -1,4 +1,4 @@
-package exercícios;
+package exercÃ­cios;
 
 import java.util.Scanner;
 
@@ -12,9 +12,10 @@ public class Idade {
 		idade = read.nextInt();
 		
 		if(idade >= 18) {
-			System.out.println("Vocé é maior de idade");
+			System.out.println("Vocï¿½ ï¿½ maior de idade");
 		}else {
-			System.out.println("Vocé é menor de idade");
+			System.out.println("Vocï¿½ ï¿½ menor de idade");
+			read.close();
 		}
 	}
 }

@@ -1,4 +1,4 @@
-package exercícios;
+package exercÃ­cios;
 
 import java.util.Date;
 import java.util.Scanner;
@@ -13,7 +13,7 @@ public class IdadeAno_V2 {
 		System.out.println("Data de nascimento");
 		System.out.println("ano: ");
 		a1 = ler.nextInt();
-		System.out.println("mês: ");
+		System.out.println("mï¿½s: ");
 		m1 = ler.nextInt();
 		System.out.println("dia: ");
 		d1 = ler.nextInt();
@@ -24,9 +24,10 @@ public class IdadeAno_V2 {
 		M1 = new Date().getMonth();
 		D1 = new Date().getDay();
 			if(A1 - a1 >=18){
-			System.out.println("Parabéns, você já pode ser preso");
+			System.out.println("Parabï¿½ns, vocï¿½ jï¿½ pode ser preso");
 			}else{
-			System.out.println("Fica tranquilo, você não tem nada com que se preocupar");	
+			System.out.println("Fica tranquilo, vocï¿½ nï¿½o tem nada com que se preocupar");
+			ler.close();
 			}
 	}
 

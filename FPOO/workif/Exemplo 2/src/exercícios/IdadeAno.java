@@ -1,4 +1,4 @@
-package exercícios;
+package exercÃ­cios;
 
 import java.time.Year;
 import java.util.Scanner;
@@ -10,15 +10,16 @@ public class IdadeAno {
 		int ano, idade;
 		int anoAtual = Year.now().getValue();
 		
-		System.out.print("Digite o ano em que você nasceu: ");
+		System.out.print("Digite o ano em que vocï¿½ nasceu: ");
 		ano = read.nextInt();
 		
 		idade = anoAtual - ano; 
 		
 		if(idade >= 18) {
-			System.out.println("Você \"di maior\"");
+			System.out.println("Vocï¿½ \"di maior\"");
 		}else {
-			System.out.println("Você \"di menor\"");
+			System.out.println("Vocï¿½ \"di menor\"");
+			read.close();
 		}
 
 	}

@@ -18,6 +18,7 @@ public class Exercicio3 {
 			System.out.println("N - 1 =" + y);
 		}else{
 		System.out.println("ERRO");
+		ler.close();
 		}
 	}
 
