@@ -1,0 +1,4 @@
+Crie um programa que o usuario digite o valor do emprestimo, do salario que ele recebe e da taxa de pagamento do emprestimo ao mês.
+A taxa de pagamento do emprestimo ao mês não pode exceder 30% do salario recebido pelo usuario
+Ex: o usuario quer comprar um celtinha de R$ 10.000. então, ele faz um emprestimo de 10.000 ao banco e a renda dele é igual a R$ 3.000, então a taxa de pagamento ao mês não pode exceder 30% de 3.000 = 1.000,
+lembrando dos juros compostos 0.1% do emprestimo que no fim do programa mostre o montante (total pago=emprestimo+0.1% do emprestimo).
