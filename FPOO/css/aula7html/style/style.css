@@ -46,13 +46,14 @@ header{
     height: 200px;
     width: 200px;
     background-color: rgb(80,80,80);
-    display: grid;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .content{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    height: 500px;
+    width: 1000px;
     margin: 3% auto;
     justify-content: space-around;
-    text-align: center;
 }
