@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(../img/desktop.png);
+}
+
+.pai{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    height: 660px;
+    width: 365px;
+    margin-top: 16%;
+}
+
+.df1{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: row;
+    height: 660px;
+    width: 60px;
+    margin-top: 10%;
+}
+
+.dff1{
+    background-color: aliceblue;
+}
+
+.df2{
+    background-color: rgb(4, 0, 255);
+    display: flex;
+    flex-direction: row;
+    height: 660px;
+    width: 305px;
+}
+
+.mae{
+    background-color: rgb(54, 48, 48);
+    display: flex;
+    flex-direction: column-reverse;
+    height: 660px;
+    width: 365px;
+    margin-top: -34.4%;
+    margin-left: 365px;
+}
+
+.df3{
+    background-color: rgb(60, 255, 0);
+    display: flex;
+    flex-direction: column;
+    height: 365px;
+}
+
+.df4{
+    background-color: rgb(255, 251, 0);
+    display: flex;
+    flex-direction: column;
+    height: 365px;
+}
