@@ -12,6 +12,19 @@ body{
     background-image: url(../img/desktop.png);
 }
 
+.ini{
+
+}
+
+.df1{
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    height: 662px;
+    width: 60px;
+    margin-top: -0.5%;
+}
+
 .pai{
     background-color: black;
     display: flex;
@@ -19,19 +32,6 @@ body{
     height: 660px;
     width: 365px;
     margin-top: 16%;
-}
-
-.df1{
-    background-color: rgb(255, 0, 0);
-    display: flex;
-    flex-direction: row;
-    height: 660px;
-    width: 60px;
-    margin-top: 10%;
-}
-
-.dff1{
-    background-color: aliceblue;
 }
 
 .df2{
@@ -53,15 +53,18 @@ body{
 }
 
 .df3{
-    background-color: rgb(60, 255, 0);
+    background-color: rgb(53, 53, 53);
     display: flex;
     flex-direction: column;
+    grid-template-columns: 100px 100px 100px;
     height: 365px;
 }
 
 .df4{
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(53, 53, 53);
     display: flex;
     flex-direction: column;
-    height: 365px;
+    grid-template-columns: 100px 100px 100px;
+    height: 520px;
+    gap: 10px;  
 }
