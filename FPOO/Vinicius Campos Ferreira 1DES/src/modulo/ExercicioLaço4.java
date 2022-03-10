@@ -2,7 +2,7 @@ package modulo;
 
 import java.util.Scanner;
 
-public class ExercicioLaço4 {
+public class ExercicioLaÃ§o4 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
