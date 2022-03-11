@@ -9,10 +9,10 @@ public class Lacos {
 		int opcao = 0;
 		while (opcao != 11) {
 			System.out.println("Digite uma opção:");
-			System.out.println("1-Programa1/t5-Programa5/t9-Programa9");
-			System.out.println("2-Programa1/t6-Programa5/t10-Programa9");
-			System.out.println("3-Programa1/t7-Programa5/t11-Programa9");
-			System.out.println("4-Programa1/t8-Programa5");
+			System.out.println("1-Programa1\t5-Programa5\t9-Programa9");
+			System.out.println("2-Programa2\t6-Programa6\t10-Programa10");
+			System.out.println("3-Programa3\t7-Programa7\t11-Programa11");
+			System.out.println("4-Programa4\t8-Programa8");
 			opcao = ler.nextInt();
 			switch (opcao) {
 			case 1:
