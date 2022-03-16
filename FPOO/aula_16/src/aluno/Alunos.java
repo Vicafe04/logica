@@ -18,7 +18,8 @@ public class Alunos {
 	}
 	private static void CAluno() {
 		int RA;
-		char Nome;
+		String Nome;
+		
 		
 		
 		
