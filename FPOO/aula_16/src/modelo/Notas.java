@@ -1,10 +1,9 @@
-package notas;
+package modelo;
 
 import java.util.Scanner;
-import notas.Notas;
 
 public class Notas {
-	static Scanner	sc = new Scanner(System.in);
+static Scanner	sc = new Scanner(System.in);
 	
 	public String componente;
 	public float[] notas =  new float[3];
@@ -18,7 +17,7 @@ public class Notas {
 		this.notas = notas;
 	}
 	
-	public static void nota() {
+	public float media() {
 		
 		System.out.println("Cadastro de notas");
 		double MP,n1,n2,n3;
