@@ -1,0 +1,4 @@
+1;AMD;Ryzen(top);1000.0;false
+3;AMD;Ryzen(top);200.0;true
+4;NVidia;RTX 1080;1200.0;true
+5;NVidia;RTX 1080;1300.0;false

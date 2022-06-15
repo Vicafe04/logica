@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background: #46B2EE;
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+}
+
+.logo{
+    position: absolute;
+    width: 86px;
+    height: 84.02px;
+    left: 20px;
+    top: 9px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 55px;
+    margin-right: 25px;
+    margin-left: 1400px;
+    margin-top: 32px;
+    font-size: 24px;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Lorem1{
+    position: absolute;
+    width: 464px;
+    height: 39px;
+    margin-left: 63px;
+    margin-top: 220px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#Lorem2{
+    position: absolute;
+    width: 562px;
+    height: 119px;
+    margin-left: 63px;
+    margin-top: 275px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.download{
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    left: 63px;
+    top: 445px;
+
+    background: linear-gradient(98.33deg, #46B2EE 0%, #00679E 116.9%);
+    border-radius: 25px;
+}
+
+.bttxt{
+    
+    width: 200px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.imgpt1{
+    margin-top: 160px;
+}
+
+.bottom{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Bpart1{
+    margin-left: 100px;
+}
+
+.Bpart2{
+    
+    width: 600px;
+    height: 800px;
+}
+
+.content{
+    margin-left: 50px;
+}
+
+.BLorem1{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    gap: 30px;
+}
+
+.gift{
+    width: 50px;
+    height: 50px;
+}
+
+.BLorem2{
+    width: 489px;
+    height: 48px;
+    left: 881px;
+    margin-top: 40px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+
+}
+
+.buttons{
+    margin-top: 100px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 100px;
+}
+
+.button1{
+    background-color: #FFA530;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    width: 70px;
+}
+
+.img1{}
